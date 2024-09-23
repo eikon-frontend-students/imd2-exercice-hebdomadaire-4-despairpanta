@@ -12,3 +12,117 @@ img,
 video {
   display: block;
 }
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.chart-mobile-desktop {
+  width: 422px;
+  margin-top: 50px;
+}
+
+section {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2px;
+}
+
+.mobile,
+.desktop,
+.chart-legend {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.06px;
+  text-align: left;
+}
+
+.mobile,
+.desktop {
+  color: white;
+  padding: 8px 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: right;
+  margin-right: 20px;
+  width: 120px;
+}
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mobile {
+  background: #ffcc2f;
+}
+
+.desktop {
+  background: #37d3d2;
+  border-radius: 0 10px 10px 0;
+}
+
+.switzerland .mobile {
+  width: 65%;
+}
+
+.switzerland .desktop {
+  width: 35%;
+}
+
+.usa .mobile {
+  width: 51%;
+}
+
+.usa .desktop {
+  width: 49%;
+}
+
+.europe .mobile {
+  width: 41%;
+}
+
+.europe .desktop {
+  width: 59%;
+}
+
+.chart-legend {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0 20px 194px;
+}
+
+.legend-desktop,
+.legend-mobile {
+  display: flex;
+  gap: 10px;
+}
+
+.square {
+  height: 16px;
+  width: 16px;
+}
+
+.legend-desktop .square {
+  background-color: #37d3d2;
+}
+
+.legend-mobile .square {
+  background-color: #ffcc2f;
+}
